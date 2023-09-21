@@ -1,5 +1,6 @@
-math_question = input("Type in a positive number.")
-if math_question > 0:
-    print("That is correct!")
+number = int(input("Enter a number: "))
+
+if (number % 2) == 0:
+    print(f"{0} is an even number")
 else:
-    print("Try again.")
+    print(f"{0} is an odd number")

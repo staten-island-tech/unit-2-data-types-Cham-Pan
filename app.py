@@ -1,6 +1,13 @@
-number = int(input("Enter a number: "))
+x = input("Was the service great, good, okay, or bad?")
 
-if (number % 2) == 0:
-    print(f"{number} is an even number")
-else:
-    print(f"{number} is an odd number")
+if x == "great":
+    print("25%")
+
+if x == "good":
+    print("20%")
+
+if x == "okay":
+    print("15%")
+    
+if x == "bad":
+    print("0%")

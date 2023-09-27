@@ -1,5 +1,10 @@
-number = int(input("Enter a number: "))
+numberx = int(input("Enter a number: "))
+numbery = int(input("Enter a number: "))
 
-for i in range(1, number + 1):
-    if number % i == 0:
+for i in range(1, numberx + 1):
+    if numberx % i == 0:
+        print(i)
+
+for i in range(1, numbery + 1):
+    if numbery % i == 0:
         print(i)

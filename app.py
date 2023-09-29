@@ -1,5 +1,5 @@
-def gcf(a, b):
-    if a == 0:
-        return b
-    return gcf(b % a, a)
+def gcf(x, y):
+    if x == 0:
+        return y
+    return gcf(y % x, x)
 print(gcf(0, 123456789))

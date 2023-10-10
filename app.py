@@ -9,6 +9,4 @@ else:
 for i in range(1, smaller_number + 1):
     if (number1 % i == 0) and (number2 % i == 0):
         gcf = i
-    else:
-        gcf = 1
-print(i)
+print(gcf)
